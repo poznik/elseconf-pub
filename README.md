@@ -12,7 +12,7 @@
 iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
-**[Скачать ElseConf для Windows](https://github.com/poznik/elseconf-pub/releases/latest)** ·
+**[Скачать ElseConf для Windows](https://github.com/poznik/elseconf-pub/releases/latest/download/ElseConf-setup.exe)** ·
 **[Скачать ElseConf для macOS](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3)**
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -99,14 +99,14 @@ iPhone и Android на общем ядре. Работает с сервером
 
 ## Установка на Windows
 
-1. Скачайте `ElseConf-<версия>-setup.exe` из
-   [Releases](https://github.com/poznik/elseconf-pub/releases/latest) и запустите.
+1. Скачайте [ElseConf-setup.exe](https://github.com/poznik/elseconf-pub/releases/latest/download/ElseConf-setup.exe)
+   — установщик последней версии — и запустите.
 2. Укажите адрес сервера, имя и пароль — или войдите через SSO.
 
 - Права администратора не нужны: клиент ставится в `%LOCALAPPDATA%\Programs\ElseConf`.
 - Обновление — тот же установщик поверх прежней версии, данные остаются.
 - Без WebView2 Runtime не откроются встречи по ссылке и вход через SSO.
-- Тихая установка: `ElseConf-<версия>-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
+- Тихая установка: `ElseConf-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
 
 Что делает каждый параметр клиента — в [описании настроек](SETTINGS.md).
 
