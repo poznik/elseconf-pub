@@ -10,17 +10,19 @@
 > вкладки «Общие» поставьте галочку «Разблокировать», нажмите «ОК» и запустите его снова.
 
 Корпоративный мессенджер с чатами, звонками и встречами: нативные клиенты для Windows, macOS,
-iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
+Linux, iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
 <p align="center">
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.9/ElseConf-6.9.9-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.9 для Windows"></a>
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.3 для macOS"></a>
   <br>
-  <sub>Windows — версия 6.9.9 · macOS — версия 6.9.3</sub>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.3 для macOS"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.24/elseconf_6.9.24_amd64.deb"><img src="screenshots/download-linux.png" width="260" alt="Скачать ElseConf 6.9.24 для Linux"></a>
+  <br>
+  <sub>Windows — версия 6.9.9 · macOS — версия 6.9.3 · Linux — версия 6.9.24</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -85,6 +87,7 @@ iPhone и Android на общем ядре. Работает с сервером
 |---|---|---|
 | Windows | [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) или установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Windows 10 20H1 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
+| Linux | Пакет `.deb` — в [Releases](https://github.com/poznik/elseconf-pub/releases), установка: `sudo apt install ./elseconf_6.9.24_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | В разработке, готовых сборок здесь пока нет | Android 10 и новее |
 
