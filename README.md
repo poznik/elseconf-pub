@@ -12,8 +12,13 @@
 iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
-**[Скачать ElseConf 6.9.9 для Windows](https://github.com/poznik/elseconf-pub/releases/download/v6.9.9/ElseConf-6.9.9-setup.exe)** ·
-**[Скачать ElseConf 6.9.3 для macOS](https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg)**
+<p align="center">
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.9/ElseConf-6.9.9-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.9 для Windows"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.3 для macOS"></a>
+  <br>
+  <sub>Windows — версия 6.9.9 · macOS — версия 6.9.3</sub>
+</p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
 
