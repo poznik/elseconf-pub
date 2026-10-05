@@ -12,8 +12,8 @@
 iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
-**[Скачать ElseConf для Windows](https://github.com/poznik/elseconf-pub/releases/latest/download/ElseConf-setup.exe)** ·
-**[Скачать ElseConf для macOS](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3)**
+**[Скачать ElseConf 6.9.9 для Windows](https://github.com/poznik/elseconf-pub/releases/download/v6.9.9/ElseConf-6.9.9-setup.exe)** ·
+**[Скачать ElseConf 6.9.3 для macOS](https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg)**
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
 
@@ -75,8 +75,8 @@ iPhone и Android на общем ядре. Работает с сервером
 
 | Платформа | Состояние | Требования |
 |---|---|---|
-| Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases/latest) | Windows 10 20H1 и новее, x64 |
-| macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3) | macOS 15 и новее, Apple Silicon |
+| Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Windows 10 20H1 и новее, x64 |
+| macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | В разработке, готовых сборок здесь пока нет | Android 10 и новее |
 
@@ -99,22 +99,21 @@ iPhone и Android на общем ядре. Работает с сервером
 
 ## Установка на Windows
 
-1. Скачайте [ElseConf-setup.exe](https://github.com/poznik/elseconf-pub/releases/latest/download/ElseConf-setup.exe)
-   — установщик последней версии — и запустите.
+1. Скачайте `ElseConf-<версия>-setup.exe` по ссылке вверху страницы или из
+   [Releases](https://github.com/poznik/elseconf-pub/releases) и запустите.
 2. Укажите адрес сервера, имя и пароль — или войдите через SSO.
 
 - Права администратора не нужны: клиент ставится в `%LOCALAPPDATA%\Programs\ElseConf`.
 - Обновление — тот же установщик поверх прежней версии, данные остаются.
 - Без WebView2 Runtime не откроются встречи по ссылке и вход через SSO.
-- Тихая установка: `ElseConf-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
+- Тихая установка: `ElseConf-<версия>-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
 
 Что делает каждый параметр клиента — в [описании настроек](SETTINGS.md).
 
 ## Установка на macOS
 
-1. Скачайте `ElseConf-<версия>.dmg` из
-   [Releases](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3), откройте и перетащите
-   ElseConf в папку «Программы».
+1. Скачайте `ElseConf-<версия>.dmg` по ссылке вверху страницы или из
+   [Releases](https://github.com/poznik/elseconf-pub/releases), откройте и перетащите ElseConf в папку «Программы».
 2. Запустите ElseConf. Образ не нотаризован, поэтому первый запуск macOS остановит: откройте
    «Системные настройки» → «Конфиденциальность и безопасность» и нажмите «Всё равно открыть».
 3. Укажите адрес сервера, имя и пароль — или войдите через SSO.
