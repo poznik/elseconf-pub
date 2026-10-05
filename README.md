@@ -4,9 +4,10 @@
 
 > [!IMPORTANT]
 > **Установщик Windows прерывается ошибкой 4551?** «Политика управления приложениями
-> заблокировала этот файл» — так срабатывает Smart App Control в Windows 11: у установщика пока
-> нет подписи разработчика. Откройте свойства скачанного файла, внизу вкладки «Общие» поставьте
-> галочку «Разблокировать», нажмите «ОК» и запустите установщик снова.
+> заблокировала этот файл» — так срабатывает Smart App Control в Windows 11: у установщика нет
+> подписи разработчика. Поставьте ElseConf [из Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F): пакет из Store
+> подписан, и Windows его не останавливает. Либо откройте свойства скачанного установщика, внизу
+> вкладки «Общие» поставьте галочку «Разблокировать», нажмите «ОК» и запустите его снова.
 
 Корпоративный мессенджер с чатами, звонками и встречами: нативные клиенты для Windows, macOS,
 iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
@@ -18,6 +19,8 @@ iPhone и Android на общем ядре. Работает с сервером
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.3 для macOS"></a>
   <br>
   <sub>Windows — версия 6.9.9 · macOS — версия 6.9.3</sub>
+  <br>
+  <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F">ElseConf для Windows в Microsoft Store</a>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -80,7 +83,7 @@ iPhone и Android на общем ядре. Работает с сервером
 
 | Платформа | Состояние | Требования |
 |---|---|---|
-| Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Windows 10 20H1 и новее, x64 |
+| Windows | [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) или установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Windows 10 20H1 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | В разработке, готовых сборок здесь пока нет | Android 10 и новее |
@@ -104,11 +107,16 @@ iPhone и Android на общем ядре. Работает с сервером
 
 ## Установка на Windows
 
+Проще всего — [из Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F): нажмите «Установить», обновления придут сами.
+В поиске Store приложения нет, оно открывается только по этой ссылке.
+
+Установщиком:
+
 1. Скачайте `ElseConf-<версия>-setup.exe` по ссылке вверху страницы или из
    [Releases](https://github.com/poznik/elseconf-pub/releases) и запустите.
 2. Укажите адрес сервера, имя и пароль — или войдите через SSO.
 
-- Права администратора не нужны: клиент ставится в `%LOCALAPPDATA%\Programs\ElseConf`.
+- Права администратора не нужны: установщик ставит клиент в `%LOCALAPPDATA%\Programs\ElseConf`.
 - Обновление — тот же установщик поверх прежней версии, данные остаются.
 - Без WebView2 Runtime не откроются встречи по ссылке и вход через SSO.
 - Тихая установка: `ElseConf-<версия>-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
