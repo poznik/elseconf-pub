@@ -12,7 +12,8 @@
 iPhone и Android на общем ядре. Работает с сервером платформы вашей организации — под той же
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
-**[Скачать ElseConf для Windows](https://github.com/poznik/elseconf-pub/releases/latest)**
+**[Скачать ElseConf для Windows](https://github.com/poznik/elseconf-pub/releases/latest)** ·
+**[Скачать ElseConf для macOS](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3)**
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
 
@@ -75,7 +76,7 @@ iPhone и Android на общем ядре. Работает с сервером
 | Платформа | Состояние | Требования |
 |---|---|---|
 | Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases/latest) | Windows 10 20H1 и новее, x64 |
-| macOS | В разработке, готовых сборок здесь пока нет | macOS 15 и новее |
+| macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3) | macOS 15 и новее, Apple Silicon |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | В разработке, готовых сборок здесь пока нет | Android 10 и новее |
 
@@ -108,6 +109,17 @@ iPhone и Android на общем ядре. Работает с сервером
 - Тихая установка: `ElseConf-<версия>-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
 
 Что делает каждый параметр клиента — в [описании настроек](SETTINGS.md).
+
+## Установка на macOS
+
+1. Скачайте `ElseConf-<версия>.dmg` из
+   [Releases](https://github.com/poznik/elseconf-pub/releases/tag/v6.9.3), откройте и перетащите
+   ElseConf в папку «Программы».
+2. Запустите ElseConf. Образ не нотаризован, поэтому первый запуск macOS остановит: откройте
+   «Системные настройки» → «Конфиденциальность и безопасность» и нажмите «Всё равно открыть».
+3. Укажите адрес сервера, имя и пароль — или войдите через SSO.
+
+- Обновление — перетащить новую версию поверх прежней, данные остаются.
 
 ## Лицензия
 
