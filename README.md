@@ -16,12 +16,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.119/ElseConf-6.9.119-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.119 для Windows"></a>
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
-  <br>
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.3 для macOS"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.24/elseconf_6.9.24_amd64.deb"><img src="screenshots/download-linux.png" width="260" alt="Скачать ElseConf 6.9.24 для Linux"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.3/ElseConf-6.9.3.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.3 для macOS"></a>
   <br>
-  <sub>Windows — версия 6.9.119 · macOS — версия 6.9.3 · Linux — версия 6.9.24</sub>
+  <sub>Windows — версия 6.9.119 · macOS — версия 6.9.3</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
