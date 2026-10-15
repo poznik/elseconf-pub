@@ -21,13 +21,13 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
 <p align="center">
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.155/ElseConf-6.9.155-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.155 для Windows"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.158/ElseConf-6.9.158-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.158 для Windows"></a>
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;&nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.157/ElseConf-6.9.157.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.157 для macOS"></a>
   <br>
-  <sub>Windows — версия 6.9.155 · macOS — версия 6.9.157</sub>
+  <sub>Windows — версия 6.9.158 · macOS — версия 6.9.157</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -120,7 +120,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 2. Укажите адрес сервера, имя и пароль — или войдите через SSO.
 
 - Права администратора не нужны: установщик ставит клиент в `%LOCALAPPDATA%\Programs\ElseConf`.
-- Обновление — тот же установщик поверх прежней версии, данные остаются.
+- Обновление — с версии 6.9.158 клиент, поставленный установщиком, обновляется сам: найдя новую
+  версию, скачивает её и показывает синюю кнопку над шестерёнкой, щелчок ставит её и перезапускает
+  клиент. Выбор — «Настройки → Общие → Обновления». Версии до 6.9.158 обновляет тот же установщик
+  поверх прежней версии; данные остаются.
 - Без WebView2 Runtime не откроются встречи по ссылке и вход через SSO.
 - Тихая установка: `ElseConf-<версия>-setup.exe /VERYSILENT /SUPPRESSMSGBOXES`.
 
