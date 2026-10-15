@@ -25,9 +25,9 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.156/ElseConf-6.9.156.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.156 для macOS"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.157/ElseConf-6.9.157.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.157 для macOS"></a>
   <br>
-  <sub>Windows — версия 6.9.155 · macOS — версия 6.9.156</sub>
+  <sub>Windows — версия 6.9.155 · macOS — версия 6.9.157</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -138,7 +138,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
    «Системные настройки» → «Конфиденциальность и безопасность» и нажмите «Всё равно открыть».
 3. Укажите адрес сервера, имя и пароль — или войдите через SSO.
 
-- Обновление — перетащить новую версию поверх прежней, данные остаются.
+- Обновление — с версии 6.9.157 ElseConf из папки «Программы» обновляется сам: найдя новую версию,
+  скачивает её и показывает синюю кнопку над кнопками папок и настроек, щелчок ставит её и
+  перезапускает клиент. Выбор — «Настройки → Общие → Обновления». Версии до 6.9.157 обновляют,
+  перетащив новую поверх прежней; данные остаются.
 
 ## Лицензия
 
