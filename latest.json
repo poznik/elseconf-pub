@@ -3,5 +3,10 @@
     "sha256": "6fce2da5451c5536a6ffd9883d65bb07352502b7e89bbb308f13245e2d0b8763",
     "size": 30600128,
     "version": "6.9.156"
+  },
+  "windows": {
+    "sha256": "b2ce4c503e9dbf163af94d5a772fbeb908866eee7b7fed208114bb6a36c19fa9",
+    "size": 116509102,
+    "version": "6.9.155"
   }
 }
