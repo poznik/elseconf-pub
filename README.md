@@ -25,9 +25,9 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.165/ElseConf-6.9.165.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.165 для macOS"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.171/ElseConf-6.9.171.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.171 для macOS"></a>
   <br>
-  <sub>Windows — версия 6.9.170 · macOS — версия 6.9.165</sub>
+  <sub>Windows — версия 6.9.170 · macOS — версия 6.9.171</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
