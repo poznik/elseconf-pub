@@ -26,8 +26,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;&nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.171/ElseConf-6.9.171.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.171 для macOS"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.173/ElseConf-6.9.173.apk"><img src="screenshots/download-android.png" width="260" alt="Скачать ElseConf 6.9.173 для Android"></a>
   <br>
-  <sub>Windows — версия 6.9.170 · macOS — версия 6.9.171</sub>
+  <sub>Windows — версия 6.9.170 · macOS — версия 6.9.171 · Android — версия 6.9.173</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -94,7 +96,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
 | Linux | Пакет `.deb` — в [Releases](https://github.com/poznik/elseconf-pub/releases), установка: `sudo apt install ./elseconf_6.9.24_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
-| Android | В разработке, готовых сборок здесь пока нет | Android 10 и новее |
+| Android | Пакет `.apk` — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Android 10 и новее, arm64 и x86-64 |
 
 Набор возможностей у клиентов различается: полнее всего — клиент Windows, по нему и составлен
 список выше.
@@ -145,6 +147,21 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   скачивает её и показывает синюю кнопку над кнопками папок и настроек, щелчок ставит её и
   перезапускает клиент. Выбор — «Настройки → Общие → Обновления». Версии до 6.9.157 обновляют,
   перетащив новую поверх прежней; данные остаются.
+
+## Установка на Android
+
+1. Скачайте `ElseConf-<версия>.apk` на телефон по ссылке вверху страницы или из
+   [Releases](https://github.com/poznik/elseconf-pub/releases).
+2. Откройте скачанный файл. Android спросит, можно ли браузеру или файловому менеджеру ставить
+   приложения, — разрешите и нажмите «Установить». Пакет не из Google Play, поэтому Play Защита может
+   предупредить о неизвестном разработчике: «Подробнее» → «Всё равно установить».
+3. Укажите адрес сервера, имя и пароль — или войдите через SSO.
+
+- Обновление — новый пакет ставят тем же путём поверх прежнего; данные остаются. Сам клиент на
+  Android пока не обновляется.
+- Ссылку на встречу из браузера или почты откройте через «Поделиться» → ElseConf.
+- Чтобы сообщения и звонки приходили в фоне на Xiaomi, Huawei и похожих телефонах, разрешите
+  ElseConf автозапуск и снимите для него ограничения батареи.
 
 ## Лицензия
 
