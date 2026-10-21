@@ -21,7 +21,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
 <p align="center">
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.258/ElseConf-6.9.258-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.258 для Windows"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.260/ElseConf-6.9.260-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.260 для Windows"></a>
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;&nbsp;
@@ -29,7 +29,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;&nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.256/ElseConf-6.9.256.apk"><img src="screenshots/download-android.png" width="260" alt="Скачать ElseConf 6.9.256 для Android"></a>
   <br>
-  <sub>Windows — версия 6.9.258 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
+  <sub>Windows — версия 6.9.260 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
@@ -92,7 +92,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 
 | Платформа | Состояние | Требования |
 |---|---|---|
-| Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 20H1 и новее, x64 |
+| Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 1809 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
 | Linux | Пакет `.deb` — в [Releases](https://github.com/poznik/elseconf-pub/releases), установка: `sudo apt install ./elseconf_6.9.24_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
