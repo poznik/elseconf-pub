@@ -21,7 +21,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
 <p align="center">
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.257/ElseConf-6.9.257-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.257 для Windows"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.258/ElseConf-6.9.258-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.258 для Windows"></a>
   &nbsp;&nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;&nbsp;
@@ -29,7 +29,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;&nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.256/ElseConf-6.9.256.apk"><img src="screenshots/download-android.png" width="260" alt="Скачать ElseConf 6.9.256 для Android"></a>
   <br>
-  <sub>Windows — версия 6.9.257 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
+  <sub>Windows — версия 6.9.258 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
