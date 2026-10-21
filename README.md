@@ -27,9 +27,9 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;&nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.253/ElseConf-6.9.253.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.253 для macOS"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.173/ElseConf-6.9.173.apk"><img src="screenshots/download-android.png" width="260" alt="Скачать ElseConf 6.9.173 для Android"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.256/ElseConf-6.9.256.apk"><img src="screenshots/download-android.png" width="260" alt="Скачать ElseConf 6.9.256 для Android"></a>
   <br>
-  <sub>Windows — версия 6.9.255 · macOS — версия 6.9.253 · Android — версия 6.9.173</sub>
+  <sub>Windows — версия 6.9.255 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
 </p>
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
