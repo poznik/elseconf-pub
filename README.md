@@ -21,16 +21,29 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
 <p align="center">
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.260/ElseConf-6.9.260-setup.exe"><img src="screenshots/download-windows.png" width="260" alt="Скачать ElseConf 6.9.260 для Windows"></a>
-  &nbsp;&nbsp;
-  <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="260" alt="Установить ElseConf из Microsoft Store"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.253/ElseConf-6.9.253.dmg"><img src="screenshots/download-macos.png" width="260" alt="Скачать ElseConf 6.9.253 для macOS"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.256/ElseConf-6.9.256.apk"><img src="screenshots/download-android.png" width="260" alt="Скачать ElseConf 6.9.256 для Android"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.260/ElseConf-6.9.260-setup.exe"><img src="screenshots/download-windows.png" width="250" alt="Скачать ElseConf 6.9.260 для Windows"></a>
+  &nbsp;
+  <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="250" alt="Установить ElseConf из Microsoft Store"></a>
+  &nbsp;
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.260/ElseConf-6.9.260.msix"><img src="screenshots/download-store-package.png" width="250" alt="Скачать пакет Store ElseConf 6.9.260"></a>
+  <br><br>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.253/ElseConf-6.9.253.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.253 для macOS"></a>
+  &nbsp;
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.256/ElseConf-6.9.256.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.256 для Android"></a>
   <br>
-  <sub>Windows — версия 6.9.260 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
+  <sub>Windows: установщик — версия 6.9.260, Store и пакет Store — 6.9.260 · macOS — версия 6.9.253 · Android — версия 6.9.256</sub>
 </p>
+
+Для Windows — три варианта:
+
+- **Установщик** — самая свежая версия, с последними правками. Он не подписан: Smart App Control в
+  Windows 11 может его остановить — тогда файл нужно разблокировать или выключить защиту, как
+  сказано в рамке в начале страницы. В закрытых системах у него могут блокироваться микрофон и камера.
+- **Microsoft Store** — версия, подписанная Microsoft: микрофон и камера не блокируются и в закрытых
+  системах. Каждую версию Store проверяет перед публикацией, поэтому она может отставать от
+  установщика.
+- **Пакет Store** — та же версия из Store, только скачанная заранее: на случай, если в Windows нет
+  Store, например в LTSC. Как поставить — в разделе [«Установка на Windows»](#установка-на-windows).
 
 ![Чаты в клиенте Windows](screenshots/windows-chats.png)
 
@@ -142,7 +155,8 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 Add-AppxPackage -Path "$env:USERPROFILE\Downloads\ElseConf-6.9.260.msix"
 ```
 
-Клиент из пакета сам не обновляется: новую версию ставят так же, поверх прежней, данные остаются.
+Проверено на Windows 10 LTSC 2019: работают звонки, видео, звук и показ экрана. Клиент из пакета
+сам не обновляется: новую версию ставят так же, поверх прежней, данные остаются.
 
 Что делает каждый параметр клиента — в [описании настроек](SETTINGS.md).
 
