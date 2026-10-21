@@ -92,7 +92,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 
 | Платформа | Состояние | Требования |
 |---|---|---|
-| Windows | Установщик — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 1809 и новее, x64 |
+| Windows | Установщик и пакет `.msix` для Windows без Store — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 1809 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
 | Linux | Пакет `.deb` — в [Releases](https://github.com/poznik/elseconf-pub/releases), установка: `sudo apt install ./elseconf_6.9.24_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
@@ -132,6 +132,17 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 Установщик не запускается или установка прерывается — поставьте ElseConf
 [из Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F): нажмите «Установить». В поиске Store приложения нет, оно
 открывается только по этой ссылке.
+
+Нет Microsoft Store — например, в Windows LTSC — скачайте из
+[Releases](https://github.com/poznik/elseconf-pub/releases) пакет `ElseConf-<версия>.msix`: это
+тот же пакет из Store, подписанный Microsoft. Поставьте его из PowerShell, права администратора не
+нужны:
+
+```powershell
+Add-AppxPackage -Path "$env:USERPROFILE\Downloads\ElseConf-6.9.260.msix"
+```
+
+Клиент из пакета сам не обновляется: новую версию ставят так же, поверх прежней, данные остаются.
 
 Что делает каждый параметр клиента — в [описании настроек](SETTINGS.md).
 
