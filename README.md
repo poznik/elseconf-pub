@@ -29,9 +29,9 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   <br><br>
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.275/ElseConf-6.9.275.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.275 для macOS"></a>
   &nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.256/ElseConf-6.9.256.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.256 для Android"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.275/ElseConf-6.9.275.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.275 для Android"></a>
   <br>
-  <sub>Windows: установщик, Store и пакет Store — версия 6.9.266 · macOS — версия 6.9.275 · Android — версия 6.9.256</sub>
+  <sub>Windows: установщик, Store и пакет Store — версия 6.9.266 · macOS — версия 6.9.275 · Android — версия 6.9.275</sub>
 </p>
 
 Для Windows — три варианта:
