@@ -21,17 +21,17 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 учётной записью, с теми же чатами, контактами и встречами, что и штатный клиент платформы.
 
 <p align="center">
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.279/ElseConf-6.9.279-setup.exe"><img src="screenshots/download-windows.png" width="250" alt="Скачать ElseConf 6.9.279 для Windows"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.283/ElseConf-6.9.283-setup.exe"><img src="screenshots/download-windows.png" width="250" alt="Скачать ElseConf 6.9.283 для Windows"></a>
   &nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="250" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.266/ElseConf-6.9.266.msix"><img src="screenshots/download-store-package.png" width="250" alt="Скачать пакет Store ElseConf 6.9.266"></a>
   <br><br>
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.279/ElseConf-6.9.279.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.279 для macOS"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.283/ElseConf-6.9.283.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.283 для macOS"></a>
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.279/ElseConf-6.9.279.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.279 для Android"></a>
   <br>
-  <sub>Windows: установщик — версия 6.9.279, Store и пакет Store — 6.9.266 · macOS — версия 6.9.279 · Android — версия 6.9.279</sub>
+  <sub>Windows: установщик — версия 6.9.283, Store и пакет Store — 6.9.266 · macOS — версия 6.9.283 · Android — версия 6.9.279</sub>
 </p>
 
 Для Windows — три варианта:
