@@ -107,7 +107,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 |---|---|---|
 | Windows | Установщик и пакет `.msix` для Windows без Store — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 1809 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
-| Linux | Пакет `.deb` — в [Releases](https://github.com/poznik/elseconf-pub/releases), установка: `sudo apt install ./elseconf_6.9.279_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
+| Linux | Пакет [`elseconf_6.9.284_amd64.deb`](https://github.com/poznik/elseconf-pub/releases/download/v6.9.284/elseconf_6.9.284_amd64.deb), установка: `sudo apt install ./elseconf_6.9.284_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
 | Терминальный клиент | Один файл без окна для сервера и NAS — в [Releases](https://github.com/poznik/elseconf-pub/releases): вход, туннель между своими устройствами, лента переписки в папку | Linux x86-64 и ARM64, Synology DSM 7 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | Пакет `.apk` — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Android 10 и новее, arm64 и x86-64 |
