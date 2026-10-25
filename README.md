@@ -30,8 +30,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.283/ElseConf-6.9.283.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.283 для macOS"></a>
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.279/ElseConf-6.9.279.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.279 для Android"></a>
+  &nbsp;
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.289/elseconf_6.9.289_amd64.deb"><img src="screenshots/download-linux.png" width="250" alt="Скачать ElseConf 6.9.289 для Linux"></a>
   <br>
-  <sub>Windows: установщик — версия 6.9.283, Store и пакет Store — 6.9.266 · macOS — версия 6.9.283 · Android — версия 6.9.279</sub>
+  <sub>Windows: установщик — версия 6.9.283, Store и пакет Store — 6.9.266 · macOS — версия 6.9.283 · Android — версия 6.9.279 · Linux (Ubuntu 22.04 и 24.04) — версия 6.9.289</sub>
 </p>
 
 Для Windows — три варианта:
@@ -107,7 +109,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 |---|---|---|
 | Windows | Установщик и пакет `.msix` для Windows без Store — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 1809 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
-| Linux | Пакет [`elseconf_6.9.284_amd64.deb`](https://github.com/poznik/elseconf-pub/releases/download/v6.9.284/elseconf_6.9.284_amd64.deb), установка: `sudo apt install ./elseconf_6.9.284_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
+| Linux | Пакет [`elseconf_6.9.289_amd64.deb`](https://github.com/poznik/elseconf-pub/releases/download/v6.9.289/elseconf_6.9.289_amd64.deb), установка: `sudo apt install ./elseconf_6.9.289_amd64.deb` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
 | Терминальный клиент | Один файл без окна для сервера и NAS — в [Releases](https://github.com/poznik/elseconf-pub/releases): вход, туннель между своими устройствами, лента переписки в папку | Linux x86-64 и ARM64, Synology DSM 7 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | Пакет `.apk` — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Android 10 и новее, arm64 и x86-64 |
