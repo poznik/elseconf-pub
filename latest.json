@@ -1,8 +1,8 @@
 {
   "macos": {
-    "sha256": "d1f51ceb0678fb82da7b51d05a755424640ae1bdcb0efd199b8bfab01e5f5ec8",
-    "size": 32578385,
-    "version": "6.9.291"
+    "sha256": "403506d310bbfe58a14d6761d7a88edac57da669909a54a2921deb0573573c8b",
+    "size": 32658729,
+    "version": "6.9.298"
   },
   "windows": {
     "sha256": "e5858eba5c7d2059f784fc7ace9921342d45a0ee49b165323251b389d5268989",
