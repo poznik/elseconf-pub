@@ -27,13 +27,13 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.296/ElseConf-6.9.296.msix"><img src="screenshots/download-store-package.png" width="250" alt="Скачать пакет Store ElseConf 6.9.296"></a>
   <br><br>
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.291/ElseConf-6.9.291.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.291 для macOS"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.298/ElseConf-6.9.298.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.298 для macOS"></a>
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.279/ElseConf-6.9.279.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.279 для Android"></a>
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.289/elseconf_6.9.289_amd64.deb"><img src="screenshots/download-linux.png" width="250" alt="Скачать ElseConf 6.9.289 для Linux"></a>
   <br>
-  <sub>Windows: установщик — версия 6.9.296, Store и пакет Store — 6.9.296 · macOS — версия 6.9.291 · Android — версия 6.9.279 · Linux (Ubuntu 22.04 и 24.04) — версия 6.9.289</sub>
+  <sub>Windows: установщик — версия 6.9.296, Store и пакет Store — 6.9.296 · macOS — версия 6.9.298 · Android — версия 6.9.279 · Linux (Ubuntu 22.04 и 24.04) — версия 6.9.289</sub>
 </p>
 
 Для Windows — три варианта:
