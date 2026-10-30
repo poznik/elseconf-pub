@@ -2,11 +2,7 @@
 
 # ElseConf
 
-<p align="center">
-  <a href="https://github.com/poznik/elseconf-pub/raw/main/screenshots/windows-video.mp4"><img src="screenshots/windows-video.webp" alt="Ролик: чаты, звонки и встречи в клиенте Windows"></a>
-  <br>
-  <a href="https://github.com/poznik/elseconf-pub/raw/main/screenshots/windows-video.mp4">Скачать ролик со звуком (MP4, 1,6 МБ)</a>
-</p>
+https://github.com/user-attachments/assets/42228b3e-b665-415c-8f9e-a972b4b77d01
 
 > [!IMPORTANT]
 > **Установщик Windows прерывается ошибкой 4551?** «Политика управления приложениями
