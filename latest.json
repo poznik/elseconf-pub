@@ -5,8 +5,8 @@
     "version": "6.9.303"
   },
   "windows": {
-    "sha256": "e0352378338ef1ab60cf2d2d7c87db02616b2756d374bcbe3b40ceff2123dadd",
-    "size": 118132605,
-    "version": "6.9.302"
+    "sha256": "9454f8f03837bcdf77876556e45d71ee6b7188a819b2b05d29022337379019fd",
+    "size": 118220200,
+    "version": "6.9.306"
   }
 }
