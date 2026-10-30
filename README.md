@@ -2,6 +2,12 @@
 
 # ElseConf
 
+<p align="center">
+  <a href="screenshots/windows-video.mp4"><img src="screenshots/windows-video.webp" alt="Ролик: чаты, звонки и встречи в клиенте Windows"></a>
+  <br>
+  <a href="screenshots/windows-video.mp4">Ролик со звуком</a>
+</p>
+
 > [!IMPORTANT]
 > **Установщик Windows прерывается ошибкой 4551?** «Политика управления приложениями
 > заблокировала этот файл» — так срабатывает Smart App Control в Windows 11: у установщика нет
@@ -47,7 +53,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 - **Пакет Store** — та же версия из Store, только скачанная заранее: на случай, если в Windows нет
   Store, например в LTSC. Как поставить — в разделе [«Установка на Windows»](#установка-на-windows).
 
-![Чаты в клиенте Windows](screenshots/windows-chats.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/windows-chats-dark.png">
+  <img src="screenshots/windows-chats.png" alt="Чаты в клиенте Windows">
+</picture>
 
 ## Что умеет
 
@@ -69,7 +78,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 - К разговору можно добавить людей — звонок продолжится конференцией.
 - Звонок, принятый на другом вашем устройстве, не остаётся пропущенным.
 
-![Звонок в клиенте Windows](screenshots/windows-call.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/windows-call-dark.png">
+  <img src="screenshots/windows-call.png" alt="Звонок в клиенте Windows">
+</picture>
 
 ### Встречи
 
@@ -82,9 +94,15 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 - Запись встречи — на сервере или на свой компьютер, с согласием участников; раздел «Записи».
 - История встреч по дням с карточкой: организатор, участники, чат.
 
-![Раздел «Встречи» в клиенте Windows](screenshots/windows-meetings.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/windows-meetings-dark.png">
+  <img src="screenshots/windows-meetings.png" alt="Раздел «Встречи» в клиенте Windows">
+</picture>
 
-![Окно встречи в клиенте Windows](screenshots/windows-meeting.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/windows-meeting-dark.png">
+  <img src="screenshots/windows-meeting.png" alt="Окно встречи в клиенте Windows">
+</picture>
 
 ### Контакты
 
@@ -94,7 +112,10 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 - Статусы людей и свой статус: «в сети», «нет на месте», «не беспокоить» и свой текст — например,
   «в отпуске до 6 октября».
 
-![Структура компании в клиенте Windows](screenshots/windows-contacts.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/windows-contacts-dark.png">
+  <img src="screenshots/windows-contacts.png" alt="Структура компании в клиенте Windows">
+</picture>
 
 ### Вход и оформление
 
@@ -200,4 +221,4 @@ ElseConf распространяется по лицензии [Apache-2.0](LIC
 
 ---
 
-Люди, переписка и встречи на снимках выдуманы.
+Люди, переписка и встречи на снимках и в ролике выдуманы.
