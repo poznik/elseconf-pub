@@ -3,9 +3,9 @@
 # ElseConf
 
 <p align="center">
-  <a href="screenshots/windows-video.mp4"><img src="screenshots/windows-video.webp" alt="Ролик: чаты, звонки и встречи в клиенте Windows"></a>
+  <a href="https://github.com/poznik/elseconf-pub/raw/main/screenshots/windows-video.mp4"><img src="screenshots/windows-video.webp" alt="Ролик: чаты, звонки и встречи в клиенте Windows"></a>
   <br>
-  <a href="screenshots/windows-video.mp4">Ролик со звуком</a>
+  <a href="https://github.com/poznik/elseconf-pub/raw/main/screenshots/windows-video.mp4">Скачать ролик со звуком (MP4, 1,6 МБ)</a>
 </p>
 
 > [!IMPORTANT]
