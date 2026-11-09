@@ -27,7 +27,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;
   <a href="https://apps.microsoft.com/detail/9NZ0MQ87265F"><img src="screenshots/download-store.png" width="250" alt="Установить ElseConf из Microsoft Store"></a>
   &nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.314/ElseConf-6.9.314.msix"><img src="screenshots/download-store-package.png" width="250" alt="Скачать пакет Store ElseConf 6.9.314"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.324/ElseConf-6.9.324.msix"><img src="screenshots/download-store-package.png" width="250" alt="Скачать пакет Store ElseConf 6.9.324"></a>
   <br><br>
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.324/ElseConf-6.9.324.dmg"><img src="screenshots/download-macos.png" width="250" alt="Скачать ElseConf 6.9.324 для macOS"></a>
   &nbsp;
@@ -35,7 +35,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.289/elseconf_6.9.289_amd64.deb"><img src="screenshots/download-linux.png" width="250" alt="Скачать ElseConf 6.9.289 для Linux"></a>
   <br>
-  <sub>Windows: установщик — версия 6.9.324, Store и пакет Store — 6.9.314 · macOS — версия 6.9.324 · Android — версия 6.9.324 · Linux (Ubuntu 22.04 и 24.04) — версия 6.9.289</sub>
+  <sub>Windows: установщик — версия 6.9.324, Store и пакет Store — 6.9.324 · macOS — версия 6.9.324 · Android — версия 6.9.324 · Linux (Ubuntu 22.04 и 24.04) — версия 6.9.289</sub>
 </p>
 
 Для Windows — три варианта:
@@ -172,7 +172,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 нужны:
 
 ```powershell
-Add-AppxPackage -Path "$env:USERPROFILE\Downloads\ElseConf-6.9.314.msix"
+Add-AppxPackage -Path "$env:USERPROFILE\Downloads\ElseConf-6.9.324.msix"
 ```
 
 Проверено на Windows 10 LTSC 2019: работают звонки, видео, звук и показ экрана. Клиент из пакета
