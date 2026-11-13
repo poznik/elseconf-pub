@@ -33,9 +33,9 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
   &nbsp;
   <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.337/ElseConf-6.9.337.apk"><img src="screenshots/download-android.png" width="250" alt="Скачать ElseConf 6.9.337 для Android"></a>
   &nbsp;
-  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.9.289/elseconf_6.9.289_amd64.deb"><img src="screenshots/download-linux.png" width="250" alt="Скачать ElseConf 6.9.289 для Linux"></a>
+  <a href="https://github.com/poznik/elseconf-pub/releases/download/v6.10.5/elseconf_6.10.5_amd64.deb"><img src="screenshots/download-linux.png" width="250" alt="Скачать ElseConf 6.10.5 для Linux"></a>
   <br>
-  <sub>Windows: установщик — версия 6.9.337, Store и пакет Store — 6.9.337 · macOS — версия 6.9.333 · Android — версия 6.9.337 · Linux (Ubuntu 22.04 и 24.04) — версия 6.9.289</sub>
+  <sub>Windows: установщик — версия 6.9.337, Store и пакет Store — 6.9.337 · macOS — версия 6.9.333 · Android — версия 6.9.337 · Linux (Ubuntu 22.04 и 24.04) — версия 6.10.5</sub>
 </p>
 
 Для Windows — три варианта:
@@ -126,7 +126,7 @@ Linux, iPhone и Android на общем ядре. Работает с серв�
 |---|---|---|
 | Windows | Установщик и пакет `.msix` для Windows без Store — в [Releases](https://github.com/poznik/elseconf-pub/releases) или [Microsoft Store](https://apps.microsoft.com/detail/9NZ0MQ87265F) | Windows 10 1809 и новее, x64 |
 | macOS | Образ установки — в [Releases](https://github.com/poznik/elseconf-pub/releases) | macOS 15 и новее, Apple Silicon |
-| Linux | Пакет [`elseconf_6.9.289_amd64.deb`](https://github.com/poznik/elseconf-pub/releases/download/v6.9.289/elseconf_6.9.289_amd64.deb), установка одной командой: `sudo apt install ./elseconf_6.9.289_amd64.deb` — apt сам поставит нужные системные библиотеки. Если пакет ставили через `dpkg -i` и он остановился на зависимостях, установку закончит `sudo apt --fix-broken install` | Ubuntu Desktop 22.04 и 24.04, x86-64 |
+| Linux | Пакет [`elseconf_6.10.5_amd64.deb`](https://github.com/poznik/elseconf-pub/releases/download/v6.10.5/elseconf_6.10.5_amd64.deb), установка одной командой: `sudo apt install ./elseconf_6.10.5_amd64.deb` — apt сам поставит нужные системные библиотеки. Если пакет ставили через `dpkg -i` и он остановился на зависимостях, установку закончит `sudo apt --fix-broken install`.<br><br>Для тех, кто не может ставить через apt (нет сети, закрыты репозитории, выключены обновления), — пакет со всеми зависимостями [`elseconf_6.10.5_amd64_bundled.deb`](https://github.com/poznik/elseconf-pub/releases/download/v6.10.5/elseconf_6.10.5_amd64_bundled.deb): `sudo dpkg -i elseconf_6.10.5_amd64_bundled.deb`, ничего не скачивает. Только Ubuntu 22.04; он больше (около 160 МБ), и обновления безопасности встроенного браузерного движка приходят в нём только с новой версией клиента | Ubuntu Desktop 22.04 и 24.04, x86-64; пакет со всеми зависимостями — Ubuntu Desktop 22.04 |
 | Терминальный клиент | Один файл без окна для сервера и NAS — в [Releases](https://github.com/poznik/elseconf-pub/releases): вход, туннель между своими устройствами, лента переписки в папку | Linux x86-64 и ARM64, Synology DSM 7 |
 | iPhone | В разработке, готовых сборок здесь пока нет | iOS 26 и новее |
 | Android | Пакет `.apk` — в [Releases](https://github.com/poznik/elseconf-pub/releases) | Android 10 и новее, arm64 и x86-64 |
